@@ -1,0 +1,43 @@
+name: hackathon_block
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publication to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.9.0
+  camera: ^0.11.0+2
+  sqflite: ^2.3.3+1
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  permission_handler: ^11.3.1
+  flutter_animate: ^4.5.0
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.10.0 # Add this line
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+
+# Move flutter_icons configuration to the root level
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/logo.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/logo/logo.png"
+  adaptive_icon_padding: false
