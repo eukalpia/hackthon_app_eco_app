@@ -1,6 +1,6 @@
 # Eco App: Empowering Environmental Stewardship
 
-![Eco App Logo](https://via.placeholder.com/150?text=Eco+App+Logo)
+![Eco App Logo](d:\Cloud App\hackathon_block\assets\logo\logo.png)
 
 ## Table of Contents
 1. [English Documentation](#english)
